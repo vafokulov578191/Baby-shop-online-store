@@ -6,6 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## Available Scripts
+
+## maket which i want to do
+
+https://www.figma.com/file/hShQNbcnV3Y8OBiDwsNrpZ/Untitled?node-id=0%3A1
+
 ### `npm start`
 
 Runs the app in the development mode.\
