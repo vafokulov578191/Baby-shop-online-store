@@ -1,0 +1,257 @@
+.pathBtn {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    flex-grow: 0;
+    color: #686877 !important;
+    padding: 0;
+    margin: 0;
+}
+
+.pathBtn:hover {
+    color: #090F24 !important;
+}
+
+.ImageSide {
+    height: 100%;
+    max-width: 40%;
+    flex-basis: 40%;
+    border-radius: 10px;
+}
+
+.header_product {
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 28px !important;
+    line-height: 38px !important;
+    color: #090F24 !important;
+}
+
+.OrderSide {
+    max-width: 60%;
+    flex-basis: 60%;
+    height: 100%;
+    color: #090F24;
+}
+
+.card_side {
+    padding: 20px;
+}
+
+.row {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.select {
+    width: 100%;
+    height: 46px;
+    border: none !important;
+    background-color: #F4F5F9;
+    border-radius: 45px;
+}
+
+.select_input {
+    border: none !important;
+    outline: none;
+}
+
+fieldset {
+    border: none !important;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    padding: 0 32px !important;
+
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+    display: flex;
+    align-items: center;
+}
+
+.current_price {
+    font-weight: 600 !important;
+    font-size: 26px !important;
+    line-height: 36px !important;
+    font-style: normal !important;
+    color: #090F24 !important;
+
+}
+
+.old_price {
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    color: #B7B8C5 !important;
+    text-decoration: line-through !important;
+
+}
+
+.offer_side {
+    display: flex !important;
+
+
+}
+
+.buy_btn {
+    padding: 12px 50px !important;
+    background-color: #69CB87 !important;
+    box-shadow: 0px 2px 4px rgba(51, 196, 223, 0.2) !important;
+    border-radius: 25px !important;
+
+}
+
+.like_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    line-height: 16px !important;
+
+    color: #090F24 !important;
+
+}
+
+.like_btn {
+    width: 46px !important;
+    height: 46px !important;
+    background-color: #F4F5F9 !important;
+    opacity: 0.85 !important;
+    border-radius: 44px !important;
+    margin-right: 10px !important;
+}
+
+.variant_models {
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 22px !important;
+    line-height: 30px !important;
+    color: #090F24 !important;
+}
+
+.name_modles {
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 17px !important;
+    line-height: 30px !important;
+    color: #686877 !important;
+}
+
+.models_img {
+    align-items: center;
+    justify-content: flex-start;
+    gap: 13px;
+}
+
+.models_img_item {
+    width: 96px !important;
+    height: 96px !important;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.models_img_item img {
+    width: 100%;
+    height: 100%;
+}
+
+.models_img_item:last-child {
+    cursor: pointer;
+    background: #F4F5F9;
+}
+
+.models_img_item:hover {
+    border: 1px solid #E4E7EE;
+}
+
+.models_img_item_act {
+    border: 1px solid #ED9BC1;
+}
+
+.center {
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+/* Shere Social Media Box*/
+.shere_box {
+    gap: 16px !important;
+    align-items: center !important;
+    margin-top: 10px;
+}
+
+.shere_text {
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 22px !important;
+    line-height: 30px !important;
+    color: #090F24 !important;
+}
+
+.shere_icon {
+    width: 30px !important;
+    height: 30px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+/* Product Slider */
+.product_slider {
+    width: 451px;
+    height: 451px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.product_slider_mainImg {
+    width: 100%;
+    height: 371px;
+    background: #000;
+}
+
+.product_slider_itemImg {
+    width: 60px;
+    height: 60px;
+}
+
+.itemImg_act {
+    border: 1px solid #ED9BC1;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.video_item {
+    width: 144px;
+    height: 100px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.countBtn {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    background: #F4F5F9 !important;
+}
+
+.star {
+    width: 20px !important;
+    height: 20px !important;
+    cursor: pointer;
+}
+
+.star-rating-filled {
+    fill: gold;
+}
+
+.star-rating-blank {
+    fill: #d8d8d8;
+}

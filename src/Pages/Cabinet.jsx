@@ -5,15 +5,15 @@ import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import HouseIcon from '@mui/icons-material/House';
 import Avatar from '@mui/material/Avatar';
 import PhotoCameraIcon from '@mui/icons-material/PhotoCamera';
-import SVGIcons from '../../Components/SVGIcons';
+import SVGIcons from '../Components/SVGIcons';
 import { Helmet } from "react-helmet";
-import MycabinetAccordion from './MycabinetAccordion';
-import siper from '../../Components/swiper/images/image 2 (5).png'
-import siper1 from '../../Components/swiper/images/image 2 (6).png'
-import siper2 from '../../Components/swiper/images/image 2 (7).png'
-import siper3 from '../../Components/swiper/images/image 2 (8).png'
-import siper4 from '../../Components/swiper/images/image 2 (9).png'
-import siper5 from '../../Components/swiper/images/image 3 (6).png'
+import MycabinetAccordion from '../Components/MyCabinet/MycabinetAccordion';
+import siper from '../Components/images/image 2 (5).png'
+import siper1 from '../Components/images/image 2 (6).png'
+import siper2 from '../Components/images/image 2 (7).png'
+import siper3 from '../Components/images/image 2 (8).png'
+import siper4 from '../Components/images/image 2 (9).png'
+import siper5 from '../Components/images/image 3 (6).png'
 
 
 const Cabinet = () => {

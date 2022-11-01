@@ -1,0 +1,44 @@
+.content .swiper img {
+    object-fit: cover;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid transparent;
+    padding: 10px 30px;
+    gap: 15px;
+}
+
+.content .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.content .skidka {
+    width: 24%;
+    height: 100%;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+
+}
+
+.content .skidka img {
+    width: 100%;
+    height: 47%;
+    object-fit: cover;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: 70% center;
+}
+
+:root {
+    --swiper-theme-color: rgb(167, 167, 167);
+    --swiper-navigation-size: 30px;
+}
+
+/* .content .swiper  */

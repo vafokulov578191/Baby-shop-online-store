@@ -1,6 +1,69 @@
 * {
-  margin: 0px;
   padding: 0px;
+  margin: 0px;
   box-sizing: border-box;
+  outline: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  user-select: none;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  color: black !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+
+button {
+  color: black !important;
+}
+
+.inputRounded .MuiSelect-select {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputRounded .MuiOutlinedInput-root,
+.inputRounded .MuiButton-root,
+.inputRounded .MuiOutlinedInput-notchedOutline {
+  border-radius: 25px;
+}
+
+.MuiPagination-ul li {
+  gap: '30px' !important;
+  align-items: center !important;
+}
+
+.MuiPagination-ul li button {
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 1000px !important;
+}
+
+.btn_paginate:hover {
+  background-color: #c4c4c4 !important;
+}
+
+.pagination_numbers:hover {
+  border: 1px solid #74CCD8 !important;
+}
+
+.active {
+  background: #74CCD8 !important;
+  color: 'white'
+}
+
+#activate {
+  background: #74CCD8;
+  color: 'white' !important;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}

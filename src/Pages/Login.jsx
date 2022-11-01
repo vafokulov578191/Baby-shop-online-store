@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import SVGIcons from '../Components/SVGIcons';
 import { Typography, Button, Checkbox, FormGroup, Stack, Box, FormControlLabel, Radio, RadioGroup, TextField, FormControl, Select, MenuItem, InputLabel, OutlinedInput, InputAdornment, IconButton } from '@mui/material';
 import { Visibility, VisibilityOff } from '@mui/icons-material';
-import CountryCodes from './CountryCodes';
+import CountryNumbers from './CountryNumbers'
 
 const Login = () => {
     const [radioStatus, setRadioStatus] = useState('private');
@@ -76,7 +76,7 @@ const Login = () => {
                                             defaultValue='+998'
                                             style={{ display: 'flex' }}
                                         >
-                                            {CountryCodes.map((country, idx) => {
+                                            {CountryNumbers.map((country, idx) => {
                                                 return (
                                                     <MenuItem key={idx} style={{ width: '200px', padding: '10px 15px', display: 'flex', justifyContent: 'space-between    ' }} value={country.dialCode}>
                                                         <img style={{ borderRadius: '90%', width: '35px' }} src={country.flag} alt="" />

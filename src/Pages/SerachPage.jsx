@@ -3,12 +3,12 @@ import React from 'react'
 import { useEffect, useRef, useState } from 'react'
 import { Helmet } from 'react-helmet'
 import { useDispatch, useSelector } from 'react-redux'
-import SVGIcons from '../../Components/SVGIcons'
-import { Swiper_arr4 } from '../../Components/swiper/Swiper_compo/Swip_arr'
-import { fetchProducts } from '../../store/features/products/productThunk'
-import Accardeon from './Accardeon'
-import ProductBlock from './ProductBlock'
-import SelectSmall from './SelectSmall'
+import SVGIcons from '../Components/SVGIcons'
+import { arr4 } from '../Components/Arr'
+import Accardeon from '../Components/SearchPage/Accordeon'
+import ProductBlock from '../Components/SearchPage/ProductBlock'
+import SelectSmall from '../Components/SearchPage/SelectSmall'
+import { fetchProducts } from '../store/features/productsThunk'
 
 
 const SearchPage = () => {
@@ -20,7 +20,7 @@ const SearchPage = () => {
 
     const lastPageIndex = currentPage * productsPerPage
     const firstPageIndex = lastPageIndex - productsPerPage
-    const currentProduct = Swiper_arr4.slice(firstPageIndex, lastPageIndex)
+    const currentProduct = arr4.slice(firstPageIndex, lastPageIndex)
 
     const products = useSelector(state => state.products.data);
     const dispatch = useDispatch();
@@ -50,7 +50,7 @@ const SearchPage = () => {
 
     const pageCount = []
 
-    for (let i = 0; i < Math.ceil(Swiper_arr4.length / productsPerPage); i++) {
+    for (let i = 0; i < Math.ceil(arr4.length / productsPerPage); i++) {
         pageCount.push(i)
     }
 
@@ -148,7 +148,7 @@ const SearchPage = () => {
                         </Box>
                     </Box>
                     <Box sx={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                        <Typography sx={{ color: '#686877', fontSize: '20px' }} variant='span'>Найдено {Swiper_arr4.length} товаров </Typography>
+                        <Typography sx={{ color: '#686877', fontSize: '20px' }} variant='span'>Найдено {arr4.length} товаров </Typography>
                         <SelectSmall />
                     </Box>
                     <Box sx={{ display: "grid", gridTemplateColumns: "repeat(4,1fr)", gap: "10px" }}>

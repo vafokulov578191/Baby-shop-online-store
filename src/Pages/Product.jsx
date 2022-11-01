@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './Product.css'
+import '../Components/Product/Product.css'
 import { Link } from 'react-router-dom';
 import { IconButton, FormControl, Box, MenuItem, Select } from '@mui/material';
 import HouseIcon from '@mui/icons-material/House';

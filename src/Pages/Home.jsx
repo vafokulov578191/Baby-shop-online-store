@@ -1,17 +1,17 @@
 import { Box } from "@mui/system";
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
-import { cardImg, Images } from "../Components/swiper/Swiper_compo/Swip_arr";
-import SwiperComponent from "../Components/swiper/Swiper_compo/SwiperComponent";
+import { cardImg, Images } from "../Components/Arr";
+import SwiperComponent from "../Components/SwiperComponent";
 import '../App.css'
-import BGimg from '../Components/swiper/images/Rectangle 9 (1).png'
-import BGimg1 from '../Components/swiper/images/image 4 (1).png'
-import Sale from '../Components/swiper/images/Group 775.png'
+import BGimg from '../Components/images/Rectangle 9 (1).png'
+import BGimg1 from '../Components/images/image 4 (1).png'
+import Sale from '../Components/images/Group 775.png'
 import { Button } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchProducts } from "../store/features/products/productThunk";
+import { fetchProducts } from "../store/features/productsThunk";
 import ItemComponent from "../Components/ItemComponent";
-import { fetchAllSales } from "../store/features/products/productSlice";
+import { fetchAllSales } from "../store/features/ProductSlice";
 
 
 export default function Home() {
