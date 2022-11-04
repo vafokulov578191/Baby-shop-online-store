@@ -12,8 +12,8 @@ import {
     PURGE,
     REGISTER,
 } from 'redux-persist'
-import likedSlice from './features/likedSlice'
 import ProductSlice from './features/ProductSlice'
+import likedSlice from './features/likedSlice'
 
 const persistConfig = {
     key: 'root',

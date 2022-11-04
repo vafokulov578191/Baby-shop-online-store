@@ -30,7 +30,5 @@ export const likedSlice = createSlice({
 })
 
 
-export const {
-    likedProduct
-} = likedSlice.actions
+export const { likedProduct } = likedSlice.actions
 export default likedSlice.reducer
